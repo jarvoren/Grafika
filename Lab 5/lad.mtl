@@ -1,0 +1,13 @@
+# Blender MTL File: 'Zadanie 1 Cwiczenia 3.blend'
+# Material Count: 1
+
+newmtl Lad
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.045653 0.640000 0.106747
+Ks 0.147399 0.147399 0.147399
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd lad.tga
+map_Bump /home/PJWSTK/s10795/BLENDER/images.jpg

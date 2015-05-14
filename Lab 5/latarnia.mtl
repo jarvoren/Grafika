@@ -1,0 +1,43 @@
+# Blender MTL File: 'None'
+# Material Count: 4
+
+newmtl Material.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.051204 0.000756 0.001168
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd latarnia.tga
+
+newmtl Material.002
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.483053 0.049715 0.022776
+Ks 0.201031 0.201031 0.201031
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd latarnia.tga
+map_Bump /home/PJWSTK/s11197/Pobrane/dachowka.jpg
+
+newmtl beton
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.254831 0.212857 0.187356
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd latarnia.tga
+
+newmtl cegla
+Ns 47.058824
+Ka 0.000000 0.000000 0.000000
+Kd 0.149942 0.091688 0.035711
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd latarnia.tga

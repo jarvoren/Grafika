@@ -1,0 +1,13 @@
+# Blender MTL File: 'brzeg.blend'
+# Material Count: 1
+
+newmtl lad
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.050860 0.640000 0.033204
+Ks 0.050000 0.050000 0.050000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump /home/PJWSTK/s10932/grafika/ax04yd.jpg
+map_Kd /home/PJWSTK/s10932/grafika/ax04yd.jpg
