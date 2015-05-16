@@ -1,0 +1,10 @@
+gcc    -c -o main.o main.c
+gcc    -c -o Model.o Model.c
+gcc    -c -o Program.o Program.c
+gcc    -c -o Texture.o Texture.c
+Texture.c: In function ‘LoadTGAFile’:
+Texture.c:164:7: warning: format ‘%i’ expects argument of type ‘int’, but argument 3 has type ‘long int’ [-Wformat=]
+       fprintf(stderr, "ERROR: Could not allocate %i bytes.\n", size);
+       ^
+gcc    -c -o Utils.o Utils.c
+gcc main.o Model.o Program.o Texture.o Utils.o -o blender -lX11 -lglut -lGL -lGLU -lGLEW -lm

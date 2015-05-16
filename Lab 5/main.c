@@ -323,9 +323,11 @@ void Initialize(int argc, char* argv[])
 	SetViewMatrix(&skyProgram, &ViewMatrix);
 	SetTextureUnit(&skyProgram, 1);
 	glUseProgram(coneProgram.MainProgram);
-	SetProjectionMatrix(&coneProgram, &ProjectionMatrix);
+	printf("laduje cone \n");
+        SetProjectionMatrix(&coneProgram, &ProjectionMatrix);
 	SetViewMatrix(&coneProgram, &ViewMatrix);
 	SetTextureUnit(&coneProgram, 1);
+        printf("laduje halo \n");
 	glUseProgram(haloProgram.MainProgram);
 	SetProjectionMatrix(&haloProgram, &ProjectionMatrix);
 	SetViewMatrix(&haloProgram, &ViewMatrix);
@@ -415,7 +417,9 @@ void RenderFunction(void){
 
 	DrawModel(&cube, &(program[CurrentProgram]));
 	DrawModel(&lad, &(program[CurrentProgram]));
-	DrawModel(&morze, &bumpProgram);
+	DrawModel(&morze, &(program[CurrentProgram]));
+        DrawModel(&morze, &bumpProgram);
+        
 	clock_t Now = clock();
 
 	if (LastTime == 0) 
